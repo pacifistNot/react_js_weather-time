@@ -59,8 +59,8 @@ function Forecast () {
             <div className="weather">
                 <div className='weather__search__container'>
                     <div className="weather__search">
-                        <input type="text" placeholder="Введите название города " onChange={e => setName(e.target.value)}/>
-                        <button onClick={handleClick}>Поиск</button>
+                        <input className='weather__input' type="text" placeholder="Введите название города " onChange={e => setName(e.target.value)}/>
+                        <button className='weather__btn' onClick={handleClick}>Поиск</button>
                     </div>
                     <div className='weather__input__error'>
                         <p>{error}</p>

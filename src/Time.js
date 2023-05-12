@@ -16,7 +16,9 @@ const Time = () => {
 
     return (
         <div className="container">
-            <p className="time">{time}</p>
+            <div className="time__container">
+                <p className="time">{time}</p>
+            </div>
         </div>
     )
 }
