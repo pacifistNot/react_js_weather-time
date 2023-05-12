@@ -9,10 +9,10 @@ const Time = () => {
     const updateTime = () => {
         const newsTime = new Date().toLocaleTimeString();
 
-        setTime(newsTime, 1000);
+        setTime(newsTime);
     }
 
-    setInterval(updateTime)
+    setInterval(updateTime, 1000)
 
     return (
         <div className="container">
